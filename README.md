@@ -6,14 +6,17 @@ install functions core tool - https://learn.microsoft.com/en-us/azure/azure-func
 install visual studio code - https://code.visualstudio.com/download#
 install python - https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
 
-## Set up infrastructure for the following 
-- Storage account to store the jpg file uploaded from the frontend
-- Service Bus Queue to store the play load with metadata related to the uploaded files
--Function to invole the ML infeence when the meta data related to the uploaded files is received on Service Bus queue
+## Set up infrastructure
 
   unzip ARM-Template-HackathonRG.zip
   
   use az cli or azure portal to deploy the required resource
+  
+ Note: Above script creates the following services 
+  - Storage account to store the jpg file uploaded from the frontend
+  - Service Bus Queue to store the play load with metadata related to the uploaded files
+  - Function to invole the ML infeence when the meta data related to the uploaded files is received on Service Bus queue
+
 
 ## Deploy function code 
 
