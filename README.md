@@ -2,9 +2,9 @@
 Back end tool chain to get inputs from front end and invoke ML inference 
 
 ## Prerequisites 
-  - install functions core tool - https://go.microsoft.com/fwlink/?linkid=2174087
-  - install visual studio code - https://code.visualstudio.com/download#
-  - install python - https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
+  - install Azure Functions core tool - https://go.microsoft.com/fwlink/?linkid=2174087
+  - install Visual Studio Code - https://code.visualstudio.com/download#
+  - install Python - https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
 
 ## Set up infrastructure
 
